@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lan="pt-bt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Sprint 01: Construa um decodificador de texto com Javascript</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <a href="https://www.alura.com.br/"><img src="img/logo.png" alt="logo alura" href="alura.com.br" class="logo"></a><h1 class="titulo">CHARLLENGE ONE:</h1>
+            <div class="caixa">
+                <h1 class="titulo">Decodificador de texto com Javascript</h1>
+            </div>
+        </header>
+        <main>
+            <div class="input">
+                <textarea cols="65" rows="11" id="input-texto" required placeholder="Digite seu texto"></textarea>
+
+                
+                <div class="botoes">
+                    <h2>*Apenas letras minúsculas e sem acento.</h2>
+                    <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                    <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+                </div>
+            </div>
+          
+            <div id="resultado">
+
+                <img src="img/temp.png" class="resultado-img" alt="imagem resultado">
+
+                <h1><strong>Nenhuma mensagem encontrada</strong></h1>
+                <h2 class="resultado-msg" id="output">Digite um texto que você deseja criptografar ou descriptografar.</h2>
+            </div>
+        </main>
+        <footer>
+            <p>Desenvolvido por Lucas Emanuel</p>
+            <div>
+                <a href="https://www.linkedin.com/in/lucas-emanuel-dos-santos-sousa-a41903147/"><img src="img/linkedin-logo.png" alt="logo linkedin" class="redes-sociais"></a>
+                <a href="https://github.com/LucasE075"><img src="img/github-logo.png" alt="logo github" class="redes-sociais2"></a>
+            </div>
+        </footer> 
+        <script src="script.js"></script>
+    </body>
+</html>
+
